@@ -1,0 +1,17 @@
+{
+  "name": "spell-lenguage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lexj": "node lexer-js.js",
+    "lexw": "node lexer-wich.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moo": "^0.5.2"
+  },
+  "type": "module"
+}
