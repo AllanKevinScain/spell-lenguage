@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lexj": "node lexer-js.js",
-    "lexw": "node lexer-wich.js"
+    "lex": "node index.js",
+    "lexprd": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moo": "^0.5.2"
+    "moo": "^0.5.2",
+    "shelljs": "^0.8.5"
   },
   "type": "module"
 }

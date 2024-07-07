@@ -1,5 +1,0 @@
-const minhaFuncao = () => (valf,vals) {
-    return valf + vals;
-};
-
-console.log(minhaFuncaoo);
