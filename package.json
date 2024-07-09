@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lex": "node index.js",
+    "spell": "node index.js",
     "build": "node dist/index.js"
   },
   "keywords": [],
