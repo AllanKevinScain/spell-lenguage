@@ -1,0 +1,12 @@
+estupefaça somaAteN(n) {
+    expelliarmus soma = 0;
+    arrestoMomentum (expelliarmus i = 1; i <= n; i++) {
+        soma += i;
+    }
+    reducto soma;
+}
+
+
+expelliarmus n = 10;
+expelliarmus resultado = somaAteN(n);
+oculosReparo("A soma dos números de 1 até "+n+" é "+resultado+".");
