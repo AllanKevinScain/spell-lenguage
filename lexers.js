@@ -18,7 +18,7 @@ export const javascriptLexer = moo.compile({
     variables: ["var", "let", "const"],
 
     // palavras reservadas
-    workeys: { match: [/\bif/, /\belse/, /\bfor/, /\breturn/, /\bfunction/, /\bwhile/], value: s => s },
+    wordkeys: { match: [/\bif\s/, /\belse\s/, /\bfor\s/, /\breturn\s/, /\bfunction\s/, /\bwhile\s/], value: s => s },
     log: /\bconsole.log/,
 
     // identificadores

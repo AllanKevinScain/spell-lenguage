@@ -1,0 +1,1 @@
+export const ignoreTokens = ["buses", "arrow", "comparators", "operators", "pointers", "spaces", "numero", "string", "fim_de_linha", "identificadores"];

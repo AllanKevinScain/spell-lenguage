@@ -1,4 +1,4 @@
-export function constructTokens(code, lexer, ignoreTokens) {
+export function tokensConstructor(code, lexer, ignoreTokens) {
     let tokens = [];
     let lines = NaN;
     let token;
