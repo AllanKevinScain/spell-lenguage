@@ -1,15 +1,23 @@
 import { generatorJSFile } from './generator/index.js';
 import { validator } from './validator/index.js';
 
-async function main() {
-    try {
-        const ok = await generatorJSFile("code.txt");
+const archive = "code.spell.txt"
 
-        if (ok) {
-            validator("dist/index.js");
+async function main() {
+    const patternArchive = /\.spell/;
+    const match = patternArchive.test(archive);
+    try {
+        if (match) {
+            const ok = await generatorJSFile(archive);
+
+            if (ok) {
+                validator("dist/index.js");
+            }
+        } else {
+            throw new Error("Tipo de arquivo inválido!")
         }
     } catch (error) {
-        console.log("🚀 ~ ", error.message);
+        console.log("💥 ~ Erro: ", error.message);
     }
 }
 
